@@ -1,0 +1,226 @@
+/* Format téléphone */
+@media screen and (max-width: 640px) {
+/* barre de navigation */
+.navb{
+  width: 100%;
+  height: 110px;
+  margin-top: 0;
+  position: absolute;
+  background-color: #2E73C3;
+}
+/* liens */
+.Signup{
+  position: absolute;
+  top:5px;
+  right: 105px;
+  font-weight: bold;
+  color: #E0ECFA;
+}
+.Login{
+  position: absolute;
+  font-weight: bold;
+  top:5px;
+  right: 15px;
+  color: #E0ECFA;
+}
+/*images / logos */
+.m2l{
+  width: 86px;
+  height: 86px;
+  border-radius: 100%;
+  margin: 10px;
+  background-color: white;
+   background-image: url(img/m2l.PNG);
+   background-position: 0 0px;
+   background-size: 86px 70px;
+   background-repeat:no-repeat;
+  }
+.caddie{
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  right: 25px;
+  top:32px;
+}
+
+#menuToggle {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 90px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#menuToggle input {
+  display: block;
+  width:48px;
+  height: 40px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  -webkit-touch-callout: none;
+}
+#menuToggle span {
+  display: block;
+  width: 48px;
+  height: 8px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #E0ECFA;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*postion barre croix */
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(0px, -8px);
+  background: #ededed;
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(5px, 3px);
+}
+#menu {
+  position: absolute;
+  width: 200px;
+  margin: -55px 0 0 -150px;
+  padding: 0px;
+  background:#ededed ;
+  list-style-type: none;
+  border-radius: 5px;
+   text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(200%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+#menu li {
+  padding: 10px 0;
+  margin-left: 25px;
+  font-size: 12px;
+  text-decoration: none;
+  color:#032449;
+  list-style: none;
+  text-decoration-line: none;
+}
+#menuToggle a {
+    text-decoration: none;
+    color: #ededed;
+    transition: color 0.3s ease;
+}
+#menuToggle input:checked ~ ul {
+  transform: none;
+  
+}
+.stylemenu {
+  position:relative;
+ 
+  width: 100%;
+  background-color: #323459;
+  position: relative;
+  height: 50px;
+  text-decoration: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.stylemenu a{
+   color:#ededed;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+
+
+}
+/* Fin barre de navigation */
+/*Body*/
+body{
+  background-image: url(img/pool.jpg);
+  background-repeat: no-repeat;
+  background-position: -425px -1px;
+  background-size:1300px;
+}
+.font1{
+position: absolute;
+left: 120px;
+top: 424px;
+font-weight: bold;
+font-size: 35px;
+color: #B5CAF2;
+-webkit-text-stroke: 1px;
+-webkit-text-stroke-color: #032449;
+}
+.font2{
+position: absolute;
+left: 160px;
+top: 460px;
+font-weight: bold;
+font-size: 35px;
+color: #B5CAF2;
+-webkit-text-stroke: 1px;
+-webkit-text-stroke-color: #032449;
+}
+.Logo{
+  width:250px;
+  position: absolute;
+  height: 250px;
+  top: 200px;
+  left:20%;
+  background-image: url(img/m2l.PNG);
+  border-radius: 50%;
+  background-position: 5px -15px;
+  background-size: 95% 95%;
+  background-repeat: no-repeat;
+  background-color: white;
+
+}
+/* Fin Body*/
+/* Footer */
+.foot{
+  position: absolute;
+  height: 100px;
+  background-color: #032449;
+  
+  width: 100%;
+  bottom: 0px;
+  
+
+
+} /*liens */
+.About{
+  position: relative;
+  top: 15px;
+  left: 15px;
+  color: #E0ECFA;
+  font-weight: bold;
+}
+.Contact{
+  position: relative;
+  left: 15px;
+  top:30px;
+  color: #E0ECFA;
+  font-weight: bold;
+}
+/* Fin footer */
+}
