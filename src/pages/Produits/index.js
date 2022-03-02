@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import './index.css';
 
 const Produits = () => {
     const params = useParams();
@@ -10,8 +11,61 @@ const Produits = () => {
     
     return (
         <div className="Produits">
-            Produits
+            <div class="verticalScroll">
 
+            <div class="scroll">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+             </div>
+         
+            <div class="scroll">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+             </div>
+            
+             <div class="scroll">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+             </div>
+          
+             <div class="scroll">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+             </div>
+             <div class="scroll">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+             </div>
+             <div class="scroll">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+             </div>
+
+            </div>
         </div>
     )
 }

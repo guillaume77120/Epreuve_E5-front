@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import './index.css';
 
-const Panier = () => {
+const Contact = () => {
     const params = useParams();
 
     useEffect(() => {
@@ -10,12 +9,10 @@ const Panier = () => {
     }, [params])
     
     return (
-        <div className="Panier">
-           <div class="verticalScroll">
-
-           </div>
+        <div className="Contact">
+            A propos
         </div>
     )
 }
 
-export default Panier;
+export default Contact;

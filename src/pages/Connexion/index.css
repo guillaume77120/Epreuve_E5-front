@@ -1,0 +1,50 @@
+.m2l{
+    border-radius: 50%;
+    background-color: white;
+    background-image: url(../../m2l.PNG);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    margin-top: 50px;
+    top:15%;
+    
+    left: 45%;
+    width: 200px;
+    height: 200px;
+}
+.container{
+    text-align: center;
+    margin: auto;
+    color: #032449;
+    margin-top: 25px;
+    top:40%;
+    border: 3px solid #032449;
+    background-color: #B5CAF2;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+}
+.container label{
+    float: left;
+    margin-left: 50px;
+  
+}
+
+.container li{
+    font-weight: bold;
+    padding-top: 25px;
+    list-style: none;
+}
+.container input{
+    margin-right: 25px;
+   width: 80%; 
+}
+.button{
+width: 150px;
+height: 40px;
+border-radius: 20px;
+border: 3px solid #032449;
+background-color: #2E73C3;
+color:#E0ECFA;
+font-weight: bold;
+}
