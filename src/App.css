@@ -1,88 +1,85 @@
-body{
-      overflow-x: hidden;
-    margin: 0;
-    top:0px;
-    left:0px;
-      background-color: #E0ECFA;
+body {
+  overflow-x: hidden;
+  margin: 0;
+  top: 0px;
+  left: 0px;
+  background-color: #e0ecfa;
+  top: 5px;
+  right: 50px;
+  color: #e0ecfa;
 }
-.compte{
-    position: absolute;
-    top:5px;
-    right: 50px;
-    color:#E0ECFA;
+.compte {
+  position: absolute;
+  top: 5px;
+  right: 50px;
+  color: #e0ecfa;
 }
-.compte a{
+.compte a {
   margin-left: 15px;
-  color:#E0ECFA;
+  color: #e0ecfa;
   text-decoration: none;
 }
-.logo{
-    border:solid #1E4F96;
-    position: absolute;
-    background-image: url(./m2l.PNG);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: white;
-    border-radius: 100%;
-    left: 20px;
-    top:20px;
-    height: 120px;
-    width: 120px;
+.logo {
+  border: solid #1e4f96;
+  position: absolute;
+  background-image: url(./m2l.PNG);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 100%;
+  left: 20px;
+  top: 20px;
+  height: 120px;
+  width: 120px;
 }
-.Accueil{
-    color:#E0ECFA;
-    font-size: 20px;
-    float: left;
-    margin-left: 170px;
-    text-decoration: none;
-    line-height: 95px;
-    font-weight: bold;
+.Accueil {
+  color: #e0ecfa;
+  font-size: 20px;
+  float: left;
+  margin-left: 170px;
+  text-decoration: none;
+  line-height: 95px;
+  font-weight: bold;
 }
 
-.ulNavBar{
-    display: flex;
-    list-style: none;
-    float: right;
+.ulNavBar {
+  display: flex;
+  list-style: none;
+  float: right;
 }
-.ulli{
-   height: 50px;
-   border-radius: 15px;
-   
-   z-index: 2;
-  
-   
+.ulli {
+  height: 50px;
+  border-radius: 15px;
+
+  z-index: 2;
 }
 #menu a {
-    line-height: 15px;
-    
+  line-height: 15px;
 }
 .ullia {
-    line-height: 60px;
-    position:relative;
-    z-index: 2;
+  line-height: 60px;
+  position: relative;
+  z-index: 2;
 }
-.ulNavBar a{
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 30px;
-    margin-left: 30px;
-    color:#E0ECFA;
-    font-size: 20px;
-    
-}
-
-.navBar{
-    background-color:#1E4F96;
-    height: 80px;
+.ulNavBar a {
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 30px;
+  color: #e0ecfa;
+  font-size: 20px;
 }
 
+.navBar {
+  background-color: #1e4f96;
+  height: 80px;
+}
 
 #menuToggle {
   display: block;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
-
 }
 
 #menuToggle a {
@@ -115,12 +112,11 @@ body{
   height: 4px;
   margin-bottom: 15px;
   position: relative;
-  background: #E0ECFA;
+  background: #e0ecfa;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
   transform: rotate(45deg) translate(88px, -130px);
-
 }
 #menuToggle #span2 {
   display: block;
@@ -128,14 +124,12 @@ body{
   height: 4px;
   margin-bottom: 15px;
   position: relative;
-  background: #E0ECFA;
+  background: #e0ecfa;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
   transform: rotate(-45deg) translate(144px, 79px);
-
 }
-
 
 #menuToggle span:first-child {
   transform-origin: 0% 0%;
@@ -156,10 +150,8 @@ body{
     red(49, 48, 51, 0.72);
 }
 
-
-
 #menuToggle input:checked ~ #span2:nth-last-child(2) {
-  transform: rotate(-125deg) translate(-55px,148px);
+  transform: rotate(-125deg) translate(-55px, 148px);
 }
 #menuToggle input:checked ~ #span1:nth-last-child(3) {
   opacity: 1;
@@ -173,19 +165,18 @@ body{
   padding: 20px;
   padding-top: 50px;
   margin-top: -90px;
-    background-color: #E0ECFA;
-    border:3px solid  #799ACA;
+  background-color: #e0ecfa;
+  border: 3px solid #799aca;
   list-style-type: none;
   border-radius: 5px;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
   transform: translate(250%, 0);
-    text-align: center;
-    
+  text-align: center;
 }
 
 #menu li {
-  color:#799ACA;
+  color: #799aca;
   font-size: 15px;
 }
 
@@ -196,7 +187,7 @@ body{
 .stylemenu {
   width: 100%;
   color: black;
-  background-color: #799ACA;
+  background-color: #799aca;
   position: absolute;
   padding-top: 45px;
   left: 0;
@@ -209,25 +200,24 @@ body{
   top: 10px;
   margin-left: 20px;
 }
-footer{
-    position: absolute;
-    background-color: #032449;
-    color: #E0ECFA;
-    height: 80px;
-    width: 100%;
-    bottom: 0;
+footer {
+  position: fixed;
+  background-color: #1e4f96;
+  width: 100%;
+  margin-top: 20px;
+  height: 100px;
+  bottom: 0;
 }
-footer ul{
-    list-style: none;
-    margin-top: 15px;
-     width: 100px;
+footer ul {
+  list-style: none;
+  margin-top: 15px;
+  width: 100px;
 }
-footer li{
-    list-style: none;
-    margin-top: 15px;
-   
+footer li {
+  list-style: none;
+  margin-top: 15px;
 }
-footer a{
-    text-decoration: none;
-    color:#E0ECFA;
+footer a {
+  text-decoration: none;
+  color: #e0ecfa;
 }

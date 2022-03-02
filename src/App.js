@@ -10,6 +10,8 @@ import Contact from './pages/Contact';
 import Inscription from './pages/Inscription';
 import Connexion from './pages/Connexion';
 import Propos from './pages/Propos';
+import Reservation from './pages/Reservation';
+import pgproduit from './pages/pgproduit';
 import './App.css';
 
 const App = () => {
@@ -25,6 +27,7 @@ const App = () => {
           </div>
           <a><div class="logo"> </div></a>
           <a href="/" class="Accueil">Accueil</a>
+          <a href="/Reservation" class="Accueil">eddeee</a>
           <ul class="ulNavBar">
             <li class="ulli">
               <div id="menuToggle">
@@ -66,6 +69,10 @@ const App = () => {
           <Route path="/Connexion/:id" element={<Connexion/>} />
            <Route path="/Propos" element={<Propos/>} />
           <Route path="/Propos/:id" element={<Propos/>} />
+          <Route path="/pgproduit" element={<pageProduit/>} />
+          <Route path="/pgproduit/:id" element={<pageProduit/>} />
+          <Route path="/Reservation" element={<Reservation/>} />
+          <Route path="/Reservation/:id" element={<Reservation/>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
 

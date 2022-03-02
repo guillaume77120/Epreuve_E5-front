@@ -1,11 +1,18 @@
-input{
-    height: 30;
-    border: solid #032449;
+input {
+  height: 50px;
+  border: solid #032449;
 }
-.Contact{
-    text-align: center;
+.Contact {
+  text-align: center;
 }
-.Contact ul{
-    display: flex;
-    list-style: none;
+.infos {
+  display: flex;
+}
+.infos label {
+  color: black;
+}
+.infos ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
 }

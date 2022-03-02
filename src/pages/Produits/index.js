@@ -12,59 +12,28 @@ const Produits = () => {
     return (
         <div className="Produits">
             <div class="verticalScroll">
+                <h1>coucou</h1>
+                <div class="scroll">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
 
-            <div class="scroll">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-             </div>
-         
-            <div class="scroll">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-             </div>
-            
-             <div class="scroll">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-             </div>
-          
-             <div class="scroll">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-             </div>
-             <div class="scroll">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-             </div>
-             <div class="scroll">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-             </div>
-
+            </div>
+            <div class="verticalScroll">
+                <h1>coucou</h1>
+                <div class="scroll">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+           
             </div>
         </div>
     )

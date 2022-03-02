@@ -11,8 +11,12 @@ const Panier = () => {
     
     return (
         <div className="Panier">
-           <div class="verticalScroll">
-
+           <div class="contpanier">
+               <h1>Mon panier</h1>
+               <div><div class="contimg"></div><p>0€</p></div><br></br>
+               <div><div class="contimg"></div></div>
+           </div>
+           <div class="prixpanier">
            </div>
         </div>
     )

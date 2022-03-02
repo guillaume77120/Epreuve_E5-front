@@ -10,7 +10,21 @@ const Contact = () => {
     
     return (
         <div className="Contact">
-            Contact
+            <div class="m2l"></div>
+            <div class="container">
+                <h1>Contact</h1>
+                <ul>
+                    <li>
+                    <label>Objet :</label><br></br>
+                    <input type="email" id="mail" name="user_mail"></input>
+                    </li>
+                    <li>
+                    <label>Contenu :</label><br></br>
+                    <input type="password" id="password" name="user_password"></input>
+                    </li>
+                </ul>
+            <button type="button" class="button">Envoyer</button>
+            </div>
         </div>
     )
 }
