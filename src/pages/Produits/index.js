@@ -12,7 +12,7 @@ const Produits = () => {
     return (
         <div className="Produits">
             <div class="verticalScroll">
-                <h1>coucou</h1>
+                <h1>Nom produit</h1>
                 <div class="scroll">
                     <div></div>
                     <div></div>
@@ -23,8 +23,9 @@ const Produits = () => {
                 </div>
 
             </div>
+            <hr></hr>
             <div class="verticalScroll">
-                <h1>coucou</h1>
+                <h1>Nom produit</h1>
                 <div class="scroll">
                     <div></div>
                     <div></div>
@@ -33,7 +34,7 @@ const Produits = () => {
                     <div></div>
                     <div></div>
                 </div>
-           
+           <hr></hr>
             </div>
         </div>
     )

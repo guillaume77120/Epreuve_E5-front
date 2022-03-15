@@ -1,3 +1,6 @@
+.Reservation{
+  height: 1000px;
+}
 .contreservation {
   margin: auto;
   width: 80%;
@@ -11,16 +14,22 @@
   margin-top: 25px;
 }
 .contreservation ul {
-  margin-top: 50px;
-  margin-left: 500px;
   display: flex;
   list-style: none;
+  justify-content: center;
+
 }
 .contreservation li {
-  margin-left: 150px;
+margin-right: 70px;
+margin-left: 70px;
+}
+  
+.centrereserv ul{
+  text-align: center;
 }
 .price {
-  margin-left: 42%;
+  margin-top: 30px;
+ text-align: center;
 }
 .plan {
   margin-top: 100px;

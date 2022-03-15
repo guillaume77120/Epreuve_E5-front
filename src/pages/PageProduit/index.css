@@ -1,0 +1,47 @@
+.Pgproduit
+{
+margin: auto;
+width:80%;
+margin-top: 5%;
+height: 500px;
+background-color: #B5CAF2;
+border:solid 3px #032449;
+border-radius: 15px;
+padding:5px;
+}
+.produitimg{
+    float: left;
+    margin: 15px;
+    width: 25%;
+    height: 250px;
+    background-color: rebeccapurple;
+}
+.Pgproduit h1{
+    margin-top: 30px;
+    color:#032449;
+    text-align: center;
+    font-size: 25px;
+}
+.Pgproduit h2{
+    margin-top: 30px;
+    margin-left: 30px;
+    color:#032449;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+}
+.Pgproduit hr{
+    margin-top: 210px;
+}
+.max{
+    margin-top: 80px;
+    width: 100%;
+    background-color: #B5CAF2;
+    height: 135px;
+    overflow: hidden;
+}
+.max p{
+     color:#032449;
+    margin-left: -130px;
+    float: left;
+}

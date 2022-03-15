@@ -1,52 +1,139 @@
-.contpanier {
-  text-align: center;
-  margin: auto;
-  color: #032449;
-  margin-top: 150px;
-  font-size: 20px;
-  top: 40%;
-  border: 5px solid #032449;
-  background-color: #b5caf2;
-  width: 80%;
-  height: 500px;
-  border-radius: 15px;
-  overflow-x: hidden;
-  overflow-y: auto;
-  white-space: nowrap;
-  display: grid;
-  grid-template-rows: 30% 30% 30% 30% 30% 30%;
-}
-.contpanier > div {
-  /*ajout sur toutes les box dans livre*/
-  border-radius: 5px;
-  width: 80%;
-  height: 220px;
 
+
+.verticalScrollpanier {
+    position: absolute;
+    z-index: -1;
+    margin: 0;
+   
+    left:0px;
+    overflow-y: inherit; 
+    background-color: #B5CAF2;
+    margin: 4px, 4px;
+    top: 40%; left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 4px;
+    width: 70%;
+    height: 350px;
+    overflow-x: hidden;
+    border: solid 3px #032449;
+    display: grid;
+    grid-template-rows: auto ;
+    border-radius: 15px;
+    }
+    .scrollpanier {
+        font-size: 50px;
+        margin-top: -70px;
+        z-index: 1;
+        width: 100%;
+        white-space: nowrap;
+        margin-top: 50px;
+    }
+ 
+  .scrollpanier > div{ 
+  border-radius: 5px;
   padding: 10px;
-  background-color: #b5caf2;
+  padding-bottom: 15px;
+  background-color: #e0ecfa;
+  height: 150px;
   border: 5px solid #032449;
   border-radius: 15px;
-  margin: -1em 10em 2em;
+   margin: 0px 1em 1em;
 }
-.contimg {
-  position: sticky;
+.total{
+      position: absolute;
+    z-index: -1;
+    width: 70%;
+    height: 250px;
+    top: 85%; left: 50%;
+    transform: translate(-50%, -50%);
+     background-color: #B5CAF2;
+     border: solid 3px #032449;
+     border-radius: 15px;
+}
+
+.imgpanier{
+  height: 100%;
+  width: 30%;
+  border: solid 3px #032449;
+  border-radius: 15px;
+  float: left;
   background-color: gray;
-  border: 3px solid #032449;
-  width: 300px;
-  height: 200px;
-  margin-left: 50px;
-  margin-top: 10px;
 }
-.prixpanier {
+.scrollpanier h3{
+  color:#032449;
+  margin-top: -15px;
+  margin-left: 350px;
+  font-size: 25px;
+}
+.scrollpanier h2{
+  margin-top: 5px;
+  color:#032449;
+  margin-left: 350px;
+  font-size: 25px;
+}
+.scrollpanier h1{
+  margin-top: -40px;
   text-align: center;
-  margin: auto;
-  color: #032449;
-  margin-top: 50px;
-  font-size: 20px;
-  top: 40%;
-  border: 5px solid #032449;
-  background-color: #b5caf2;
-  width: 80%;
-  height: 200px;
-  border-radius: 15px;
+  color:#032449;
+  
+  font-size: 45px;
+}
+.scrollpanier p{
+  margin-top: -15px;
+  color:#032449;
+  margin-left: 350px;
+  font-size: 15px;
+}
+   .scrolltotal {
+    font-size: 50px;
+    margin-top: -0px;
+    z-index: 1;
+    height: 80px;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    white-space: nowrap;
+    display: grid;
+    grid-template-rows: auto ;
+    overflow-x: hidden;
+    }
+    #article{
+      float: left;
+      margin-left: 50px;
+      margin-top: 15px;
+    }
+    #prix{
+      float: right;
+      margin-right: 50px;
+      margin-top: 5px;
+    }
+.total p{
+  margin-top: 5px;
+  color:#032449;
+  margin-left: 70%;
+  font-size: 15px;
+}
+.total hr{
+  margin-top: 15px;
+
+}
+.blank{
+  margin-top:50%;
+
+  width: 100%;
+  height: 100px;
+}
+.total button{
+margin-left: 50%;
+margin-top: 2%;
+transform: translate(-50%, -50%);
+border-radius: 15px;
+background-color: #2E73C3;
+border: solid 3px #032449;
+color:#e0ecfa;
+font-weight: bold;
+font-size: 15px;
+text-align: center;
+width: 200px;
+height: 50px;
 }

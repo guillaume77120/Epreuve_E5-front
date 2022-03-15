@@ -1,16 +1,20 @@
+.Produits{
+  height: 2000px;
+}
 .scroll {
-  font-size: 50px;
+  font-size: 5  0px;
   background-color: #e0ecfa;
   width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
   display: grid;
-  grid-template-columns: 30% 30% 30% 30% 30% 30%;
+  grid-template-columns: repeat(6, 35%);
+
 }
 
 .scroll > div {
-  /*ajout sur toutes les box dans livre*/
+  
   border-radius: 5px;
   width: 450px;
   height: 350px;
@@ -18,16 +22,21 @@
   background-color: #c4c4c4;
   border: 5px solid #032449;
   border-radius: 15px;
-  margin: 2em 2em 2em;
+  margin-left: 50px;
 }
-/*Les box a l'intérieur du fond rose */
 .verticalScroll {
   background-color: #e0ecfa;
   width: 100%;
-  height: 650px;
+  height: auto;
 }
 .verticalScroll h1 {
   color: #1e4f96;
   font-size: 75px;
   text-align: center;
+}
+hr{
+    width: 70%;
+    margin-top: 50px;
+    background-color: #032449;
+    height: 5px;
 }

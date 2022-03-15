@@ -14,6 +14,7 @@ const Reservation = () => {
             <h1 class="plan">Planning</h1>
             <div class="contreservation">
                 <div class="imgplan"></div>
+           
                 <ul>
                     <li>
                         <label>Horraire</label><br></br>
@@ -24,6 +25,7 @@ const Reservation = () => {
                         <input></input>
                     </li>
                 </ul>
+              
                 <div class="price">
                 <label >Prix</label><br></br>
                 <input></input><br></br>

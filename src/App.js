@@ -11,7 +11,7 @@ import Inscription from './pages/Inscription';
 import Connexion from './pages/Connexion';
 import Propos from './pages/Propos';
 import Reservation from './pages/Reservation';
-import pgproduit from './pages/pgproduit';
+import PageProduit from './pages/PageProduit';
 import './App.css';
 
 const App = () => {
@@ -27,7 +27,7 @@ const App = () => {
           </div>
           <a><div class="logo"> </div></a>
           <a href="/" class="Accueil">Accueil</a>
-          <a href="/Reservation" class="Accueil">eddeee</a>
+          <a href="/PageProduit" class="Accueil">eddeee</a>
           <ul class="ulNavBar">
             <li class="ulli">
               <div id="menuToggle">
@@ -40,7 +40,7 @@ const App = () => {
                     <a href="/Produits">
                       <li>Nos accessoires</li>
                     </a>
-                    <a href="#Contact">
+                    <a href="/Reservation" >
                       <li>Réserver une séance </li>
                     </a>
                     <a href="/Compte">
@@ -69,8 +69,8 @@ const App = () => {
           <Route path="/Connexion/:id" element={<Connexion/>} />
            <Route path="/Propos" element={<Propos/>} />
           <Route path="/Propos/:id" element={<Propos/>} />
-          <Route path="/pgproduit" element={<pageProduit/>} />
-          <Route path="/pgproduit/:id" element={<pageProduit/>} />
+          <Route path="/PageProduit" element={<PageProduit/>} />
+          <Route path="/PageProduit/:id" element={<PageProduit/>} />
           <Route path="/Reservation" element={<Reservation/>} />
           <Route path="/Reservation/:id" element={<Reservation/>} />
           <Route path="*" element={<NotFound />} />
